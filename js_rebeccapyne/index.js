@@ -4,7 +4,9 @@ let age = 10
 console.log(age)
 age = 20
 console.log(age)
-age2 = 37
+
+//you need to declare the variable using the let keyword and then you can change it's value further down in your code.
+let age2 = 37
 const name = "Bexx"
 /* const works like a sci constant - no changes are possible */
 
@@ -53,7 +55,7 @@ console.log("What does Bexx love?" + (firstString) + (secondString))
 
 /* template string syntax - backtick then use dollars and curly brackets. Also puts spaces in, can use additional word furniture */
 
-fullName = `${firstString} ${secondString}`
+let fullName = `${firstString} ${secondString}`
 console.log(fullName)
 
 // 63 keywords that cannot be used for variables etc 
